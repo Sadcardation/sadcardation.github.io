@@ -181,6 +181,11 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
+    {% if entry.special %}
+      <div class="periodical text-danger">
+        {{ entry.special | escape }}
+      </div>
+    {% endif %}
     <div class="periodical">
       {{ entry.note | strip }}
     </div>

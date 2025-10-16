@@ -16,7 +16,13 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      {% assign profile_image_width_value = page.profile.image_width %}
+      {% if page.profile.image_sizes %}
+        {% assign profile_image_sizes = page.profile.image_sizes %}
+      {% else %}
+        {% capture profile_image_sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+      {% endif %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}"{% if profile_image_width_value %} style="--profile-image-width: {{ profile_image_width_value }};"{% endif %}>
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
