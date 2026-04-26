@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-subtitle: <i>Work hard so don't have to</i>
+subtitle: <i>Mucho Gusto!</i>
 
 profile:
   align: right
