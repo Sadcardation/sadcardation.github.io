@@ -20,9 +20,3 @@
 @use "tabler-icons/tabler-icons.scss" with (
   $ti-font-path: variables.$ti-font-path
 );
-@use "tabler-icons/tabler-icons-filled.scss" with (
-  $ti-font-path: variables.$ti-font-path
-);
-@use "tabler-icons/tabler-icons-outline.scss" with (
-  $ti-font-path: variables.$ti-font-path
-);
