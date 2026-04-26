@@ -387,6 +387,9 @@ ninja.data = [{
             },},{id: "news-first-day-of-my-ph-d-journey-at-georgia-tech",
           title: 'First day of my Ph.D. journey at Georgia Tech!',
           description: "",
+          section: "News",},{id: "news-one-paper-is-accepted-to-acl-2026-see-you-in-san-diego",
+          title: 'One paper is accepted to ACL 2026. See you in San Diego!',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -459,6 +462,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("/feed.xml", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=kawQ3pYAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
