@@ -35,6 +35,6 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hello there! I am a first-year Ph.D. student in Computer Science at Georgia Tech, and I am fortunate to be advised by [Prof. Teodora Baluta](https://teobaluta.github.io/). My research interests lie in AI safety and security, with a particular focus on the security of generative AI recently.
+Hello there! I am a second-year Ph.D. student in Computer Science at Georgia Tech, and I am fortunate to be advised by [Prof. Teodora Baluta](https://teobaluta.github.io/). My research interests lie in AI safety and security, with a particular focus on the security of generative AI recently.
 
 Before joining Georgia Tech, I obtained my M.S. in Electrical and Computer Engineering from Duke University, where I worked with [Prof. Neil Gong](https://people.duke.edu/~zg70/). I completed my B.S. in Data Science at Duke Kunshan University, advised by [Prof. Peng Sun](https://www.uottawa.ca/faculty-engineering/school-electrical-engineering-computer-science/directory/peng-sun).
